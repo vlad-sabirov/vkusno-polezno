@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Вкусно&Полезно</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="bootstrap\css\bootstrap-theme.min.css">
+    <link rel="stylesheet" href="bootstrap\css\bootstrap.min.css">
+    <link rel="stylesheet" href="css\style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <!--<link rel="shortcut icon"  href="images/favicon%20(2).ico" type="image/x-icon" sizes="65x65">-->
+
+
+</head>
+<body>
+<!--<div class="navbar-header gradient" id="top_nav">-->
+<!--<a class="header-link">-->
+<!--<img alt="Brand" src="images/Logo%20white.png">-->
+<!--</a>-->
+<!--<a class="header-link" href="#hero">Главная</a>-->
+<!--<a class="header-link" href="#aboute">О нас</a>-->
+<!--<a class="header-link" href="#food">О правильном питании</a>-->
+<!--<a class="header-link" href="#cost">Наши цены</a>-->
+<!--<a class="header-link" href="#cost">Обед в офис</a>-->
+<!--<a class="header-link" href="#contact">Контакты</a>-->
+<!--</div>-->
+<nav class="navbar navbar navbar-fixed-top gradient">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="header-link">
+                <img alt="Brand" src="images/Logo%20white.png">
+            </a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li><a class="header-link" href="#hero">Главная</a></li>
+                <li><a class="header-link" href="#aboute">О нас</a></li>
+                <li><a class="header-link" href="#food">О правильном питании</a></li>
+                <li><a class="header-link" href="#cost">Наши цены</a></li>
+                <li><a class="header-link" href="#cost">Обед в офис</a></li>
+                <li><a class="header-link" href="#contact">Контакты</a></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+
+    </div><!-- /.container-fluid -->
+</nav>
+
+<div class="bg-i">
+    <div class="gradient">
+        <div class="container">
+
+            <div class="text-block" id="hero">
+                <h1>Не надо есть меньше, ешьте полезнее.</h1>
+                <img src="images/Shape%20(1).png" alt="">
+                <img src="images/Shape.png" alt="">
+            </div>
+            <button onclick="return location.href = 'https://t.me/VkusnoAndPolezno'" class="button-telegram btn white">
+                <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCAzMDAgMzAwIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAzMDAgMzAwOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgd2lkdGg9IjUxMnB4IiBoZWlnaHQ9IjUxMnB4Ij4KPGcgaWQ9IlhNTElEXzQ5Nl8iPgoJPHBhdGggaWQ9IlhNTElEXzQ5N18iIGQ9Ik01LjI5OSwxNDQuNjQ1bDY5LjEyNiwyNS44bDI2Ljc1Niw4Ni4wNDdjMS43MTIsNS41MTEsOC40NTEsNy41NDgsMTIuOTI0LDMuODkxbDM4LjUzMi0zMS40MTIgICBjNC4wMzktMy4yOTEsOS43OTItMy40NTUsMTQuMDEzLTAuMzkxbDY5LjQ5OCw1MC40NTdjNC43ODUsMy40NzgsMTEuNTY0LDAuODU2LDEyLjc2NC00LjkyNkwyOTkuODIzLDI5LjIyICAgYzEuMzEtNi4zMTYtNC44OTYtMTEuNTg1LTEwLjkxLTkuMjU5TDUuMjE4LDEyOS40MDJDLTEuNzgzLDEzMi4xMDItMS43MjIsMTQyLjAxNCw1LjI5OSwxNDQuNjQ1eiBNOTYuODY5LDE1Ni43MTFsMTM1LjA5OC04My4yMDcgICBjMi40MjgtMS40OTEsNC45MjYsMS43OTIsMi44NDEsMy43MjZMMTIzLjMxMywxODAuODdjLTMuOTE5LDMuNjQ4LTYuNDQ3LDguNTMtNy4xNjMsMTMuODI5bC0zLjc5OCwyOC4xNDYgICBjLTAuNTAzLDMuNzU4LTUuNzgyLDQuMTMxLTYuODE5LDAuNDk0bC0xNC42MDctNTEuMzI1Qzg5LjI1MywxNjYuMTYsOTEuNjkxLDE1OS45MDcsOTYuODY5LDE1Ni43MTF6IiBmaWxsPSIjMDAwMDAwIi8+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg=="/>VkusnoAndPolezno
+            </button>
+            <!--<a class="vkusno" href="https://t.me/vpolezno">VkusnoAndPolezno</a>-->
+        </div>
+    </div>
+</div>
+
+<div class="bg-i-2" id="aboute">
+    <div class="bg-in-i">
+        <div class="ul-block">
+            <img class="text-bg-i" src="images/Logo.png" alt="">
+            <p>Мы сервис по доставке здоровой еды на дом, у нас вы можете заказать раздельное, правильное питание на
+                неделю, как для снижения веса, так и для поддержания. <br><br> По мимо качества наших рационов, мы
+                стараемся сделать наш сервис по доставке здорового питания еще более уникальным!<br><br>Здоровое,
+                сбалансированное питание помогает человеку в любом возрасте оставаться здоровым, поддерживать
+                оптимальный показатель массы тела.</p>
+        </div>
+        <img class="markov" src="images/Морковь.png" alt="">
+
+    </div>
+    <div class="bg-in-i-2" id="food">
+        <div class="gradient-i">
+            <div class="text-block-2">
+                <h1>О правильном питании </h1>
+                <ul>
+                    <li><b>Вкусные Полезности</b></li>
+                    <li>Свежие ягоды, фрукты и овощи (витамин С, клетчатка).</li>
+                    <li>Крупы и приготовленные из них каши (витамины В, Е, магний, калий, фолиевая кислота).</li>
+                    <li>Сухофрукты и орехи (витамины, жирные кислоты, белок).</li>
+                    <li>Мясо птицы (белок, аминокислоты, витамины А, В, Е).</li>
+                    <li>Рыба и морепродукты (белок, полиненасыщенные кислоты, витамины D, E, B12, кальций, фосфор).</li>
+                    <li>Молочные продукты: сметана, творог, йогурт (кальций, белок, аминокислоты, витамины D, A, B12,
+                        углеводы).
+                    </li>
+                    <li>Зеленый чай (витамины, минералы, полифенолы).</li>
+                    <li>Растительные масла, полученные методом холодного отжима (фосфолипиды, линолевая и другие
+                        полиненасыщенные кислоты, витамины А, D, E).
+                    </li>
+                    <li>Мед (витамины, микроэлементы, глюкоза, фруктоза, фитонциды, быстрые углеводы).</li>
+                    <li>Зерновой хлеб (клетчатка, ферменты, аминокислоты).</li>
+                    <li>Употребление этих продуктов в правильных сочетаниях и является тем, что называют здоровым
+                        питанием,
+                        поскольку они приносят организму несомненную пользу и способны не только поддержать здоровье, но
+                        и
+                        укрепить его.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="bg-in-I" id="cost">
+        <img class="img"
+             src="images/kisspng-tabasco-pepper-birds-eye-chili-serrano-pepper-caye-red-pepper-5a96d2ad4027d9.png"
+             alt="">
+        <div class="diet">
+            <div class="diet-block">
+                <h1>Цены на рационы</h1>
+                <p>Стоимость 5-ти разового дневного рациона формируется исходя из необходимого числа калорий.</p>
+                <p>Стоимость доставки 5000 сум.</p>
+                <div class="table-cost">
+                    <div>
+                        <div class="red text-color">
+                            <p>Калорийность</p>
+                        </div>
+                        <div class="cost-border">
+                            <p>800 - 1200 ккал</p>
+                            <hr>
+                            <p>1300 - 1500 ккал</p>
+                            <hr>
+                            <p>1600 - 1800 ккал</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="yellow text-color">
+                            <p>Цена 1 день</p>
+                        </div>
+                        <div class="cost-border">
+                            <p>50000 сум</p>
+                            <hr>
+                            <p>55000 сум</p>
+                            <hr>
+                            <p>60000 сум</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="green text-color">
+                            <p>Цена 1 неделя</p>
+                        </div>
+                        <div class="cost-border border-right">
+                            <p>330000 сум</p>
+                            <hr>
+                            <p>365000 сум</p>
+                            <hr>
+                            <p>400000 сум</p>
+                        </div>
+                    </div>
+                </div>
+
+                <h1>Обед в офис</h1>
+                <p>Мы рады представить сервис по доставке обедовв офис</p>
+                <div class="table-cost-mini">
+                    <div>
+                        <div class="red text-color">
+                            <p>Маленькая порция</p>
+                        </div>
+                        <div class="cost-border">
+                            <p>15000 сум</p>
+
+                        </div>
+                    </div>
+                    <div>
+                        <div class="green text-color">
+                            <p>Большая порция</p>
+                        </div>
+                        <div class="cost-border border-right">
+                            <p>25000 сум</p>
+
+                        </div>
+                    </div>
+                </div>
+                <p>Ежедневное меню можно узнать в нашем телеграм канале</p>
+                <!--<a href="https://t.me/vpolezno"><img src="images/Телеграм(1).png" alt="">vpolezno</a>-->
+                <button onclick="return location.href = 'https://t.me/vpolezno'" class="btn button-telegram black"><img
+                        src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCAzMDAgMzAwIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAzMDAgMzAwOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgd2lkdGg9IjUxMnB4IiBoZWlnaHQ9IjUxMnB4Ij4KPGcgaWQ9IlhNTElEXzQ5Nl8iPgoJPHBhdGggaWQ9IlhNTElEXzQ5N18iIGQ9Ik01LjI5OSwxNDQuNjQ1bDY5LjEyNiwyNS44bDI2Ljc1Niw4Ni4wNDdjMS43MTIsNS41MTEsOC40NTEsNy41NDgsMTIuOTI0LDMuODkxbDM4LjUzMi0zMS40MTIgICBjNC4wMzktMy4yOTEsOS43OTItMy40NTUsMTQuMDEzLTAuMzkxbDY5LjQ5OCw1MC40NTdjNC43ODUsMy40NzgsMTEuNTY0LDAuODU2LDEyLjc2NC00LjkyNkwyOTkuODIzLDI5LjIyICAgYzEuMzEtNi4zMTYtNC44OTYtMTEuNTg1LTEwLjkxLTkuMjU5TDUuMjE4LDEyOS40MDJDLTEuNzgzLDEzMi4xMDItMS43MjIsMTQyLjAxNCw1LjI5OSwxNDQuNjQ1eiBNOTYuODY5LDE1Ni43MTFsMTM1LjA5OC04My4yMDcgICBjMi40MjgtMS40OTEsNC45MjYsMS43OTIsMi44NDEsMy43MjZMMTIzLjMxMywxODAuODdjLTMuOTE5LDMuNjQ4LTYuNDQ3LDguNTMtNy4xNjMsMTMuODI5bC0zLjc5OCwyOC4xNDYgICBjLTAuNTAzLDMuNzU4LTUuNzgyLDQuMTMxLTYuODE5LDAuNDk0bC0xNC42MDctNTEuMzI1Qzg5LjI1MywxNjYuMTYsOTEuNjkxLDE1OS45MDcsOTYuODY5LDE1Ni43MTF6IiBmaWxsPSIjRkZGRkZGIi8+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg=="/>vpolezno
+                </button>
+            </div>
+        </div>
+
+    </div>
+    <div class="container-fluid lef">
+        <div class="row image-bl">
+            <div class="mar col-md-4  col-sm-6 "><img src="images/Rectangle%202.png" alt=""></div>
+            <div class="mar col-md-4  col-sm-6 "><img src="images/Rectangle%202.3.png" alt=""></div>
+            <div class="mar col-md-4  col-sm-6 "><img src="images/Rectangle%202.2.png" alt=""></div>
+            <div class="mar col-md-4  col-sm-6 "><img src="images/Rectangle%202.1.png" alt=""></div>
+            <div class="mar col-md-4  col-sm-6 "><img src="images/Rectangle%202.4.png" alt=""></div>
+            <div class="mar col-md-4  col-sm-6 "><img src="images/Rectangle%202.5.png" alt=""></div>
+        </div>
+    </div>
+</div>
+
+<footer id="contact">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-1 col-sm-1 "></div>
+
+            <div class="col-md-3 col-sm-5 col-xs-12 text-footer">
+                <img src="images/Logo%20white123.png" alt="">
+                <p>Мы сервис по доставке здоровой еды на дом, у нас вы можете заказать раздельное, правильное
+                    питание на неделю, как для снижения веса, так и для поддержания. <br><br> По мимо качества наших
+                    рационов, мы стараемся сделать наш сервис по доставке здорового питания еще более
+                    уникальным!<br><br>
+                    Здоровое, сбалансированное питание помогает человеку в любом возрасте оставаться здоровым,
+                    поддерживать оптимальный показатель массы тела. </p>
+            </div>
+
+            <div class="col-md-3 col-sm-5 col-xs-12 ">
+                <div class="icon">
+                    <div class="icon-d"><a href="https://info@vpolezno.uz"><img src="images/envelope.png" alt="">info@vpolezno.uz</a>
+                    </div>
+                    <div class="icon-d"><a href="https://t.me/vpolezno"><img src="images/Телеграм(1).png" alt="">Вкусно&Полезно</a>
+                    </div>
+                    <div class="icon-d"><a href="https://t.me/VkusnoAndPolezno"><img src="images/Телеграм(1).png"
+                                                                                     alt="">Вкусно&Полезно Обеды</a>
+                    </div>
+                    <div class="icon-d"><a href=""><img src="images/instagram-logo.png" alt="">Вкусно&Полезно</a>
+                    </div>
+                    <div class="icon-d"><a href="tel://+998-93-517-35-43"><img src="images/Phone.png" alt="">+998-93-517-35-43</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-12 col-xs-12">
+                <div class="cont">
+                    <div class="border">
+                        <p>ПРИЁМ ЗАКАЗОВ*</p>
+                        <p>Ежедневно: 09:00 - 12:00</p>
+                        <hr>
+                        <p>Доставка**</p>
+                        <p>Ежедневно: 18:00 - 22:00</p>
+                    </div>
+                    <div class="cont-block">
+                        <p>* - Внимание: Заказы после 12:00 принимаются для доставки на следующий день.</p>
+                        <br>
+                        <p>** - Внимание: Доставка осуществляется в период данного времени.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-1"></div>
+        </div>
+    </div>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="bootstrap\js\bootstrap.min.js"></script>
+
+</body>
+</html>
